@@ -11,7 +11,7 @@ body{
     font-family: 'lemonMilk';
     text-align: center;
     padding: 10px;
-    background: url('Fonts_Photos/sunset2.jpg');
+    background: linear-gradient(180deg, #b6b6b6, #c3a786);
     background-size: 100%;
 }
 
