@@ -12,6 +12,7 @@ body{
     text-align: center;
     padding: 10px;
     background: linear-gradient(180deg, #b6b6b6, #c3a786);
+    background-size: 100%;
 }
 
 .sub-heading{
