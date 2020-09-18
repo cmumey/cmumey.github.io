@@ -18,7 +18,7 @@ h1{
 }
 
 .sub-heading{
-    color: #000000;
+    color:#3c3c3c;
     font-family: 'lemonMilk';
     font-size: 26px;
     text-align: center;
@@ -63,6 +63,7 @@ h1{
 }
 
 #about-text{
+    color:#3c3c3c;
     font-family: sans-serif;
     font-weight: bold;
 }
@@ -99,18 +100,20 @@ h1{
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 0 10px #8c8c8c;
+    background: linear-gradient(180deg, #cfcfcf, #c3a786);
 }
 
 .card-front{
+    color:#3c3c3c;
     font-family: 'lemonMilk';
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 .card-back{
+    color:#3c3c3c;
     font-family: sans-serif;
     transform: rotateY(180deg);
 }
@@ -127,6 +130,10 @@ img{
     border-top-right-radius: 5px;
     overflow: hidden;
     width: 100%;
+}
+
+.footer{
+    
 }
 
 .sticky{
