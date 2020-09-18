@@ -74,13 +74,12 @@ h1{
 }
 
 .flip-card{
-    background-color: #ffffff;
+    background-color: transparent;
     width: 300px;
     height: 350px;
     margin-top: 50px;
     margin-bottom: 50px; 
     perspective: 1000px;
-    box-shadow: 0 0 10px #8c8c8c;
     border-radius: 5px;
     
 }
@@ -100,7 +99,9 @@ h1{
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-color: transparent;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #8c8c8c;
 }
 
 .card-front{
