@@ -1,10 +1,11 @@
 body{
     background-color: #cfcfcf;
     margin: 0px;
+    padding: 0px;
 }
 
 h1{
-    color: #fcdeb9;
+    color: #f5e4d0;
     font-size: 3em;
     font-family: 'lemonMilk';
     text-align: center;
@@ -35,7 +36,7 @@ h1{
 }
 
 .nav-button{
-    color: #f3d5b0;
+    color: #f5e4d0;
     background: transparent;
     font-size: 1em;
     font-family: 'lemonMilk';
@@ -102,7 +103,7 @@ h1{
     backface-visibility: hidden;
     border-radius: 5px;
     box-shadow: 0 0 10px #8c8c8c;
-    background: linear-gradient(180deg, #cfcfcf, #c3a786);
+    background-color: #f5e4d0;
 }
 
 .card-front{
@@ -133,7 +134,8 @@ img{
 }
 
 .footer{
-    
+    background: #767676;
+    margin: 0px;
 }
 
 .sticky{
