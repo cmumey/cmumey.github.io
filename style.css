@@ -3,9 +3,12 @@ body{
     margin: 0px;
 }
 
+h1{
+    text-shadow: #c73d3d
+}
+
 .heading{
     width: 100%;
-    max-height: 694px;
     color: #f3d5b0;
     font-size: 50px;
     font-family: 'lemonMilk';
@@ -20,17 +23,15 @@ body{
     font-family: 'lemonMilk';
     font-size: 26px;
     text-align: center;
-    border-top-color: #000000;
-    border-top-width: 1px;
-    border-top-style: solid;
-    padding: 10px 20px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    justify-content: center;
 }
 
 .nav-buttons-home{
-    
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-flow: row;
+    justify-content: center;
     
 }
 
@@ -38,7 +39,11 @@ body{
     color: #e9d4bb;
     font-size: 20px;
     font-family: 'lemonMilk';
-    padding: 5px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
     background-color: #818181;
     border-color: #e9d4bb;
     border-radius: 7px;
@@ -72,10 +77,28 @@ body{
 
 .card {
     text-align: center;
+    font-weight: bold;
     font-family: 'lemonMilk';
+    letter-spacing: 1px;
     border-radius: 5px;
     background: white;
-    
+    margin-top: 100px;
+    width: 300px;
+    box-shadow: 0 0 10px #8c8c8c;
+}
+
+.card-title{
+    margin: 10px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    flex: 3/4;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .sticky{
@@ -86,8 +109,8 @@ body{
 
 .transform{
     transform: scale(1.1);
-    color: #ee9c37;
-    border-color: #ee9c37;
+    color: #dfdedd;
+    border-color: #c7c4c0;
 }
 
 @font-face{
