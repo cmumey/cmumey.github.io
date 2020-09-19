@@ -114,9 +114,16 @@ h1{
 }
 
 .card-back{
+    display: flex;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.card-back-text{
+    width: 80%;
     color:#3c3c3c;
     font-family: sans-serif;
-    transform: rotateY(180deg);
+    margin: 0 auto;
 }
 
 .card-title{
