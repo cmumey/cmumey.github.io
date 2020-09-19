@@ -139,6 +139,15 @@ img{
     margin: 0px;
 }
 
+.site-divider{
+    color:#3c3c3c;
+    margin: auto;
+    width: 40%;
+    flex-flow: row;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .sticky{
     position: fixed;
     top: 0;
